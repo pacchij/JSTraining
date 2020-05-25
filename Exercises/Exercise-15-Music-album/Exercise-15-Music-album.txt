@@ -1,0 +1,41 @@
+album data:
+==============
+album_id: unique_id,
+name:'some Album name1',
+titles: [title_id1, title_id2, title_id3],
+artists: [artist_ids],
+Genre: HipHop,
+Year: 2019
+
+artist data:
+======================
+{
+artist_id: unique_artist_id,
+name:artist_name
+Albums: [album_ids],
+Genre: [list_of_genre_worked],
+profession: [name_of_profession]
+}
+
+title data:
+==============
+{
+title_id: unique_title_id1,
+title_name: 'You beat me',
+Writer: [id1],
+singer: [id2],
+Director: [id3],
+other_artists: [artists_ids],
+}
+
+1. Create Album Data for at least 3 albums
+2. Create titles for each album, at least 3-4 titles for each album
+3. create artists data for singers, writers, directors, other technicians. 
+4. create at least 2 more other technicians such as guitarist\sound engineer
+
+5. create Objects for albums, titles, artists
+
+6. have search capabilities for albums: to display all titles in it, all artists in it
+7. have search capabilities for titles: to display which album it belongs, all artists worked in it
+8. have search capabilities for artists: to display all titles, albums he\she worked on
+
