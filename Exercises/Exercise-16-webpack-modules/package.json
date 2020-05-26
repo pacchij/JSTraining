@@ -1,0 +1,16 @@
+{
+  "name": "mathlib",
+  "version": "1.0.0",
+  "description": "some math library",
+  "main": "math.js",
+  "scripts": {
+    "test": "some command for test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
